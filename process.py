@@ -16,7 +16,8 @@ def get_bus_stops(bus_line):
             if row[0] in shape_ids:
                 stop_ls.append(row)
 
-
+    sorted(stop_ls, key=lambda stop: stop[3])
+    print stop_ls
 
     return stop_ls
 
