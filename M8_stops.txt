@@ -1,4 +1,4 @@
-id,lat,lng,seq
+stop_id,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station
 400176,E 9 ST/BROADWAY,,  40.731425, -73.992408,,,0,
 400336,E 8 ST/UNIVERSITY PL,,  40.731417, -73.994502,,,0,
 400337,E 8 ST/MERCER ST,,  40.730709, -73.992838,,,0,

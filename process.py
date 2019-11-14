@@ -26,7 +26,7 @@ def get_bus_stops(bus_line):
 def writeStops(stops, bus_line):
     with open(bus_line + '_stops.txt', 'w') as writeFile:
         writer = csv.writer(writeFile)
-        writer.writerow(['id','lat','lng','seq'])
+        writer.writerow(['stop_id','stop_name','stop_desc','stop_lat','stop_lon','zone_id','stop_url','location_type','parent_station'])
         writer.writerows(stops)
 
 stops = get_bus_stops("M8")
