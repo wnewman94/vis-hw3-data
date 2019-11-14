@@ -28,5 +28,5 @@ def writeStops(stops, bus_line):
         writer.writerows(stops)
 
 
-stops = get_bus_stops("M8")
-writeStops(stops, "M8")
+stops = get_bus_stops("M4")
+writeStops(stops, "M4")
