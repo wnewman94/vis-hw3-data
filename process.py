@@ -17,7 +17,6 @@ def get_bus_stops(bus_line):
                 stop_ls.append(row)
 
 
-    stop_ls.sort()
 
     return stop_ls
 
@@ -28,5 +27,5 @@ def writeStops(stops, bus_line):
         writer.writerows(stops)
 
 
-stops = get_bus_stops("M4")
-writeStops(stops, "M4")
+stops = get_bus_stops("M8")
+writeStops(stops, "M8")
